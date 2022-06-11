@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>My Cv</title>
 </head>
-<body>
+<body id="body">
     <header>
         <img src="./img/logo.svg" alt="Logo">
         <nav>
@@ -19,58 +23,64 @@
         </nav>
         <button>Hire Me</button>
     </header>
-    <h2>Hi, I am  Antonio Arias 👋</h2>
-    <h1>Scrum master, Agile Coach & Dev Wannabe</h1>
-    <img src="./img/avatar.svg" alt="">
+
+    <main>
+        <h2>Hi, I am <span id="miNombreAmarillo">Antonio Arias</span></h2>
+        <h1>Scrum master, Agile Coach & Dev Wannabe</h1>
+        <span id="subtituloMain">I make your work easier and I love it.</span>
+        <img src="./img/avatar.svg" alt="Foto de perfil">
+    </main>
+
     <section>
-        <article>
-            <i>icono</i>
+        <div class="cajaGris">
+            <img src="./img/experience.svg">
             <span>5+</span>
-            <span>Years of experience</span>
-        </article>
-        <article>
-            <i>icono</i>
-            <span>5+</span>
-            <span>Years of experience</span>
-        </article>
-        <article>
-            <i>icono</i>
-            <span>5+</span>
-            <span>Years of experience</span>
-        </article>
-        <article>
-            <i>icono</i>
-            <span>5+</span>
-            <span>Years of experience</span>
-        </article>
+            <span>Years of Experience</span>
+        </div>
+        <div class="cajaGris">
+            <img src="./img/projects.svg">
+            <span>100+</span>
+            <span>Completed Projects</span>
+        </div>
+        <div class="cajaGris">
+            <img src="./img/happyClient.svg">
+            <span>50+</span>
+            <span>Happy Clients</span>
+        </div>
     </section>
+
     <footer>
         <div>
-            <span>Kartik Bansal.</span>
-            <p>Creative designer & front-end developer</p>
+            <h3 class="enBloque">Antonio Arias</span>
+            <h5 class="enBloque">Scrum master, Agile Coach & Dev Wannabe</span>
         </div>
-            <span>Kartik Bansal.</span>
+
+        <div>
+            <h4>Useful Links</h4>
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./experience.html">Experience</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
+        </div>
         <div>
-            <span>Social Media</span>
+            <h4>Social Media</h4>
             <ul>
-                <li><a href="./index.html">LinkedIn</a></li>
-                <li><a href="./about.html">Github</a></li>
-                <li><a href="./experience.html">Instagram</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/lilianapatriciafrancouribe/">LinkedIn</a></li>
+                <li><a href="https://github.com/LilianaFranco">Github</a></li>
+                <li><a href="https://www.instagram.com/lilo_franco_uribe/">Instagram</a></li>
             </ul>
         </div>
         <div>
-            <span>Social Media</span>
+            <h4>Hire Me</h4>
+            <span>Enter your email to get my portafolio and CV.</span>
+            <form action="">Your email address</form>
         </div>
-        <div>
-            <form action="">Email Address</form>
-        </div>
+
     </footer>
+
+
+
 </body>
 </html>

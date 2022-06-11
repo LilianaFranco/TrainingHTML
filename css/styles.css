@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap');
+
+*{
+    margin: auto;
+    margin: 0px;
+}
+
+body{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:link, a:hover{
+    color: #ffB742;
+}
+
+button{
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: #ffB742;
+}
+
+.cajaGris{
+    background-color: #292b2E;
+    height: 120px;
+    width: 4160px;
+    margin: 24px;
+}
+
+main{
+    font-family: 'inter';
+    text-align: center;
+    margin: 30px 10px;
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+#subtituloMain{
+    display: block;
+}
+
+section{
+    display: flex;
+    margin: 40px;
+}
+
+
+
+h2{ 
+    font-size: 32px;
+}
+
+#miNombreAmarillo{
+    color:#FFB742;
+}
+
+h1{
+    font-size: 36px;
+}
+
+#subtituloMain{
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+
+footer ul{
+    flex-direction: column;
+}
+
+footer li{
+    margin: 2px;
+}
+
+
+
