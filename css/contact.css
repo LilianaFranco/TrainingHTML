@@ -1,0 +1,66 @@
+.main-container {
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.smile-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.smile {
+    width: 20%;
+    background-color: #7B7B7B;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.smile p {
+    align-items: center;
+    color: #FFB742;
+}
+
+.smile-contact h6 {
+    font-size: 50px;
+}
+
+.joke-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.joke {
+    width: 95%;
+    background-color: #212529;
+}
+
+.joke-text {
+    margin: 5%;
+    font-size: x-large;
+}
+
+.contact-me .contact {
+    width: 40%;
+    background-color: #7B7B7B;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    color: #FFB742;
+}
+
+.contact-me-form {
+    height: 200px;
+}
+
+.contact-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
