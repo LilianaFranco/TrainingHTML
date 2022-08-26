@@ -1,0 +1,41 @@
+
+.about{
+    display: flex;
+    margin: 60px 20px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.about img{
+    width: 30%;
+}
+
+.about-info p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about-info a{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #FFB742;
+    padding: 15px 20px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    color: #1c1c1c;
+}
+
+.about-info a, a:hover{
+    color: #1c1c1c;
+    text-decoration: none;
+    
+}
