@@ -44,7 +44,7 @@ nav a:hover{
     color: #ffB742;
 }
 
-button{
+.change-mode{
     margin: 20px;
     font-size: 18px;
     font-weight: bold;
@@ -133,91 +133,7 @@ form{
     width: 50px;
 }
 
-/*************   INDEX   ***********/
-
-/*   MAIN: INDEX  */
-.main_index{
-    font-family: 'inter';
-    text-align: center;
-    margin: 60px 20px;
-}
-
-h1{
-    font-size: 42px;
-    margin: 20px 0px;
-}
-
-h2{ 
-    font-size: 32px;
-}
-
-#span_subrayado{
-    color:#FFB742;
-}
-
-#main_subtitulo{
-    font-size: 20px;
-    margin: 60px 0px;
-    display: block;
-}
-
-.main_index img{
-    width: 10%;
-}
-
-/*   SECTION: INDEX */
-.main_section{
-    display: flex;
-    margin: 40px;
-}
-
-.section__item{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: #292b2E;
-    height: 120px;
-    width: 35%;
-    margin: 20px;
-    padding: 10px 20px;
-}
-
-.main_section img{
-    width: 20%;
-    margin: 20px;
-}
-
-.section_item_info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.section_item_info_highlighted{
-    font-size: 32px;
-    margin: 3px;
-    color: #FFB742;
-}
-
-/*************   ABOUT   ***********/
-
-.about{
-    display: flex;
-    margin: 60px 20px;
-}
-
-.about-info{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 50%;
-}
-
-.about img{
-    width: 30%;
-}
-
+/*************   EXPERIENCE, CONTACT, ABOUT   ***********/
 .tag{
     font-family: Poppins;
     background-color: #33363A;
@@ -234,101 +150,86 @@ h2{
     margin: 10px;
 }
 
-.about-info p{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 300;
+/*************   CONTACT   ***********/
+
+.main_contact{
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.about-info a{
+.joke-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.joke-text{
+    background-color:white;
+    color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 600px;
+}
+
+.joke-text p{
+    font-size: 20px;
+    margin: 20px 0px
+}
+
+.contact-button{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 18px;
     background-color: #FFB742;
     padding: 15px 20px;
-    margin: 20px 0px;
+    margin: 30px 0px;
     border-radius: 30px;
     width: 150px;
+    color: #1c1c1c;
+    align-self: flex-end;
+    border: none;
+}
+
+hr{
+    display: block;
+    width: 40%;
+    margin: 40px auto;
     text-align: center;
-    color: #1c1c1c;
-}
+} 
 
-.about-info a, a:hover{
-    color: #1c1c1c;
-    text-decoration: none;
-    
-}
-
-
-/*************   EXPERIENCE   ***********/
-
-.main_experience{
-    width: 80%;
-}
-
-.main_intro{
+.contact-me{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 60px 20px;
+    width: 40%;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-    
-}
-
-.card{
-    width: 25%;
-    height: 350px;
-    background-color: #ffffff;
-    color: #1c1c1c;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 50px;
-}
-
-.card_header{
-    display: flex;
-    justify-content: space-between;
-    height:30%;
-}
-
-.card-info{
+.contact-form {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    align-items: flex-start;
+    margin: 30px 0px;
+
 }
 
-.card_title{
+.contact-form input{
+    background-color: #212529;
+    margin: 20px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+
+.contact-form input::placeholder {
     font-family: Poppins;
     font-size: 20px;
-    font-weight: 700;
-    text-align: left;
-    margin: 10px 0px
+    color: white;
 }
 
-.link_company{
-    font-family: Poppins;
-    font-size: 16px;
-    margin: 0px;
-    text-decoration: none;
-    color: #1c1c1c;
-}
-
-
-.card p{
-    font-family: Poppins;
-    font-size: 16px;
-    padding-top: 20px;
-}
-
-.card p a{
-    text-decoration: none;
-    color: #1c1c1c;
-    font-weight: 600;
-}
 
