@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <!-- <link rel="stylesheet" href="./css/contact.css"> -->
 
     <title>Contact</title>
 </head>
@@ -26,34 +26,30 @@
         <button class="change-mode">Change Mode</button>
     </header>
 
-    <div class="main-container">
-        <div class="main_intro">
-            <span class="tag">SMILE!</span>
-            <h1 class="page_title">Contact Me, or... Smile!</h1>
-        </div>
-        <div class="joke-container">
-            <div class="joke">
-                <div class="joke-text">
-                    <p id="setup">Geek Jokes!</p> <p id="punchline">Ask for more jokes pressing the button</p>
-                </div>
-            </div>
-            <button id="joke-button">
-                One more!
-            </button>
-        </div>
-        <div class="contact-me">
-            <span class="tag">CONTACT ME</span>
-            <div class="contact-me-form">
-            <form class="contact-form" action="">
-                <input id="name"  placeholder="Name">
-                <input id="email-address"  placeholder="Email address">
-                <input id="phonenumber" placeholder="Phone number">
-                <input type="submit" value="Submit">
-              </form>
-            </div>
-        </div>
+    <div class="main_contact">
+        <span class="tag">SMILE!</span>
+        <h1 class="page_title">Contact Me, or... Smile!</h1>
     </div>
 
+    <div class="joke-container">
+        <div class="joke-text">
+            <p id="setup">Jokes!</p>
+            <p id="punchline">Press the button to read a joke.</p>
+        </div>
+        <button class="contact-button">One more!</button>
+    </div>
+
+    <hr>
+    
+    <div class="contact-me">
+        <span class="tag">CONTACT ME</span>
+        <form class="contact-form" action="">
+            <input id="name"  placeholder="Name" size="50">
+            <input id="email-address"  placeholder="Email address" size="50">
+            <input id="phonenumber" placeholder="Phone number" size="50">
+            <button type="button"  class="contact-button">Send</button>
+        </form>
+    </div>
 
     <footer>
         <div class="footer_section">
