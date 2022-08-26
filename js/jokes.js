@@ -9,7 +9,7 @@ async function bringJoke() {
     }
 }
 
-const btn = document.getElementById("joke-button");
+const btn = document.querySelector(".contact-button");
 btn.addEventListener('click', async (event) => {
     const joke = await bringJoke();
     console.log(joke)

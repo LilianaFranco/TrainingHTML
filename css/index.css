@@ -1,0 +1,60 @@
+/*   MAIN: INDEX  */
+.main_index{
+    font-family: 'inter';
+    text-align: center;
+    margin: 40px 20px;
+}
+
+h1{
+    font-size: 42px;
+    margin: 20px 0px;
+}
+
+h2{ 
+    font-size: 32px;
+}
+
+#span_subrayado{
+    color:#FFB742;
+}
+
+#main_subtitulo{
+    font-size: 20px;
+    margin: 40px 0px;
+    display: block;
+}
+
+/*   SECTION: INDEX */
+.main_section{
+    display: flex;
+    margin: 40px;
+}
+
+.section__item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #292b2E;
+    height: 120px;
+    width: 35%;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.main_section img{
+    width: 20%;
+    margin: 20px;
+}
+
+.section_item_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section_item_info_highlighted{
+    font-size: 32px;
+    margin: 3px;
+    color: #FFB742;
+}
