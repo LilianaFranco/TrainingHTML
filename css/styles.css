@@ -4,7 +4,6 @@
     margin: auto;
 }
 
-
 /*   BODY   */
 body{
     font-family: 'Poppins', sans-serif;
@@ -200,6 +199,7 @@ footer{
     color: #1c1c1c;
     align-self: flex-end;
     border: none;
+    cursor: pointer;
 }
 
 hr{
@@ -244,4 +244,14 @@ hr{
 .light{
     background-color: white;
     color: #1c1c1c;
+}
+
+.cardMode, .cardMode a{
+    background-color:#33363A;
+    color: white;
+}
+
+.formMode input::placeholder, .formMode input{
+    color: #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
 }
