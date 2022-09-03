@@ -26,6 +26,7 @@ h2{
 
 /*   SECTION: INDEX */
 .main_section{
+    color: white;
     display: flex;
     margin: 40px;
 }
